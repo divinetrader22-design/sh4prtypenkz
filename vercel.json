@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "buildCommand": "npm install --legacy-peer-deps --fetch-timeout=60000 --fetch-retries=5",
+  "outputDirectory": ".",
+  "functions": {
+    "api/*.js": {
+      "maxDuration": 10
+    }
+  }
+}
